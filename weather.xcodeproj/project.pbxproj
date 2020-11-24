@@ -16,7 +16,6 @@
 		988A7B75256D7CBC002F0C1B /* weatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A7B74256D7CBC002F0C1B /* weatherTests.swift */; };
 		988A7B80256D7CBC002F0C1B /* weatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A7B7F256D7CBC002F0C1B /* weatherUITests.swift */; };
 		988A7B91256D7DB4002F0C1B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A7B90256D7DB4002F0C1B /* Model.swift */; };
-		988A7B96256D7DDB002F0C1B /* rain.json in Resources */ = {isa = PBXBuildFile; fileRef = 988A7B95256D7DDB002F0C1B /* rain.json */; };
 		988A7B9B256D7E1A002F0C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 988A7B9A256D7E1A002F0C1B /* Assets.xcassets */; };
 		988A7BBD256D7F34002F0C1B /* GloalEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A7BBC256D7F34002F0C1B /* GloalEnum.swift */; };
 		988A7BC3256D7F74002F0C1B /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A7BC2256D7F74002F0C1B /* WeatherManager.swift */; };
@@ -32,6 +31,7 @@
 		988A7C0F256D97BA002F0C1B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A7C0E256D97BA002F0C1B /* MapViewController.swift */; };
 		988A7C14256D97E0002F0C1B /* WeatherReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A7C13256D97E0002F0C1B /* WeatherReportViewController.swift */; };
 		988A7C19256D9802002F0C1B /* WeatherReportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 988A7C18256D9802002F0C1B /* WeatherReportTableViewCell.swift */; };
+		988F09AB256DAC2E007AD14B /* rain.json in Resources */ = {isa = PBXBuildFile; fileRef = 988F09AA256DAC2E007AD14B /* rain.json */; };
 		C6B1A6284FC27722427FE76E /* Pods_weather_weatherUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F8DE30A93679E3FFFC781C9 /* Pods_weather_weatherUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,7 +72,6 @@
 		988A7B7F256D7CBC002F0C1B /* weatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weatherUITests.swift; sourceTree = "<group>"; };
 		988A7B81256D7CBC002F0C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		988A7B90256D7DB4002F0C1B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
-		988A7B95256D7DDB002F0C1B /* rain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = rain.json; path = "../../../Kristiania_Weather/Kristiania Weather/rain.json"; sourceTree = "<group>"; };
 		988A7B9A256D7E1A002F0C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Kristiania_Weather/Kristiania Weather/Assets.xcassets"; sourceTree = "<group>"; };
 		988A7BBC256D7F34002F0C1B /* GloalEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloalEnum.swift; sourceTree = "<group>"; };
 		988A7BC2256D7F74002F0C1B /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
@@ -88,6 +87,7 @@
 		988A7C0E256D97BA002F0C1B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		988A7C13256D97E0002F0C1B /* WeatherReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherReportViewController.swift; sourceTree = "<group>"; };
 		988A7C18256D9802002F0C1B /* WeatherReportTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherReportTableViewCell.swift; sourceTree = "<group>"; };
+		988F09AA256DAC2E007AD14B /* rain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = rain.json; path = weather/rain.json; sourceTree = SOURCE_ROOT; };
 		BBC9F622B69C36EA84CC61C5 /* Pods_weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C457403A8354A24A483A5248 /* Pods-weatherTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weatherTests.debug.xcconfig"; path = "Target Support Files/Pods-weatherTests/Pods-weatherTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB14DD7B338E2BC78410E759 /* Pods_weatherTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weatherTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,7 +175,7 @@
 				988A7BC1256D7F4F002F0C1B /* Networking */,
 				988A7BB3256D7EEE002F0C1B /* Global */,
 				988A7B9A256D7E1A002F0C1B /* Assets.xcassets */,
-				988A7B95256D7DDB002F0C1B /* rain.json */,
+				988F09AA256DAC2E007AD14B /* rain.json */,
 				988A7B5D256D7CB9002F0C1B /* AppDelegate.swift */,
 				988A7B5F256D7CB9002F0C1B /* SceneDelegate.swift */,
 				988A7B68256D7CBB002F0C1B /* LaunchScreen.storyboard */,
@@ -371,8 +371,8 @@
 			files = (
 				988A7B6A256D7CBB002F0C1B /* LaunchScreen.storyboard in Resources */,
 				988A7B65256D7CB9002F0C1B /* Main.storyboard in Resources */,
-				988A7B96256D7DDB002F0C1B /* rain.json in Resources */,
 				988A7B9B256D7E1A002F0C1B /* Assets.xcassets in Resources */,
+				988F09AB256DAC2E007AD14B /* rain.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
