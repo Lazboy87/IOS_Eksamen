@@ -49,6 +49,8 @@ Jeg hadde i starten opprettet et dokument med tydligere kilder men det gikk desv
 
 - rain.json er også en fil hentet inn brukes av Lottie bibloteket til animasjon.
 
+- For og få regn animasjon må man sette sin lokasjon til et sted det er meldt regn.
+
 
 
 
