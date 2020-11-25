@@ -54,6 +54,17 @@ Jeg hadde i starten opprettet et dokument med tydligere kilder men det gikk desv
 - Ingen tester skrevet.
 
 
+## Utfordringer:
+#### Under denne eksamen møtte jeg på utfordringer som:
+- Tap av første prosjekt grunnet datahavari, flere datahavari, måtte bygge mye opp på nytt.
+- Lære nye former for data håndtering, modelering av data og structs. Api som vi brukte var litt "ulogisk" navngitt på sine json objekter.
+- Hente ut data.
+- Mye nytt og sette seg inn i.
+- Xcode
+
+
+
+
 
 
 
