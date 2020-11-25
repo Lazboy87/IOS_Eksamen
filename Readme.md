@@ -51,6 +51,8 @@ Jeg hadde i starten opprettet et dokument med tydligere kilder men det gikk desv
 
 - For og få regn animasjon må man sette sin lokasjon til et sted det er meldt regn.
 
+- Ingen tester skrevet.
+
 
 
 
