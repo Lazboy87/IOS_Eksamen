@@ -32,20 +32,20 @@ extension Date {
     func getDateString(format: String)-> String {
         let dateFormatter = DateFormatter()
         dateFormatter.locale = Locale(identifier: "en_US_POSIX")
-//        dateFormatter.timeZone = TimeZone(secondsFromGMT: 0)
+
         dateFormatter.dateFormat = format
 
         return dateFormatter.string(from: self)
     }
     
-    // Convert local time to UTC (or GMT)
+    
     func toGlobalTime() -> Date {
         let timezone = TimeZone.current
         let seconds = -TimeInterval(timezone.secondsFromGMT(for: self))
         return Date(timeInterval: seconds, since: self)
     }
     
-    // Convert UTC (or GMT) to local time
+    
     func toLocalTime() -> Date {
         let timezone = TimeZone.current
         let seconds = TimeInterval(timezone.secondsFromGMT(for: self))

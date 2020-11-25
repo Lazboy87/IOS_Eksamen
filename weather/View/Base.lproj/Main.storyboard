@@ -11,7 +11,7 @@
         <!--Home-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="HomeVC" id="BYZ-38-t0r" customClass="HomeViewController" customModule="Kristiania_Weather" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="BYZ-38-t0r" customClass="HomeViewController" customModule="weather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -165,7 +165,7 @@
         <!--Map-->
         <scene sceneID="uog-b6-Kxw">
             <objects>
-                <viewController storyboardIdentifier="MapVC" id="Q8N-Me-PPd" customClass="MapViewController" customModule="Kristiania_Weather" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapVC" id="Q8N-Me-PPd" customClass="MapViewController" customModule="weather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8PV-P9-3Uh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -337,7 +337,7 @@
         <!--Weather Report-->
         <scene sceneID="LoW-zc-EZV">
             <objects>
-                <viewController storyboardIdentifier="WeatherReportVC" id="BBT-2j-jka" customClass="WeatherReportViewController" customModule="Kristiania_Weather" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WeatherReportVC" id="BBT-2j-jka" customClass="WeatherReportViewController" customModule="weather" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="imO-OA-dAc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -366,7 +366,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="665.5"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="WeatherReportTableViewCell" id="g23-de-KWs" customClass="WeatherReportTableViewCell" customModule="Kristiania_Weather" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="WeatherReportTableViewCell" id="g23-de-KWs" customClass="WeatherReportTableViewCell" customModule="weather" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="28" width="414" height="81.5"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="g23-de-KWs" id="E3y-X6-9Bj">
@@ -497,6 +497,9 @@
             <point key="canvasLocation" x="141" y="848"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="VFN-Ii-kbB"/>
+    </designables>
     <resources>
         <image name="arrow.triangle.2.circlepath.circle" catalog="system" width="128" height="121"/>
         <systemColor name="systemBackgroundColor">

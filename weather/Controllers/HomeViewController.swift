@@ -2,7 +2,7 @@
 //  HomeViewController.swift
 //  weather
 //
-//  Created by Lasse Hovden on 25/11/2020.
+//  Created by Lasse Hovden on 24/11/2020.
 //
 
 import UIKit
@@ -79,10 +79,10 @@ class HomeViewController: BaseViewController {
             switch swipeGesture.direction {
             case .right:
                 let next = currentIndex - 1
-                currentIndex = next < 0 ? 0 : next // If the current one is the first one stop scrolling
+                currentIndex = next < 0 ? 0 : next
             case .left:
                 let next = currentIndex + 1
-                currentIndex = next == summaryList.count ? currentIndex : next // If the current one was the last one stop scrolling
+                currentIndex = next == summaryList.count ? currentIndex : next
             default:
                 break
             }
@@ -119,7 +119,7 @@ class HomeViewController: BaseViewController {
             } else if let data = response?.properties?.timeseries {
                 self.filterDataForUse(dataSet: data)
                 
-                //SAVE CURRENT LOCATION FOR LATER USE
+                
                 UserDefinedConfigs.setCurrentLocation(coordinates: coordinate)
             }
         }
@@ -143,7 +143,7 @@ class HomeViewController: BaseViewController {
             }
         }
         
-        //SAVE WEATHER AND FOR LATER USE
+        
         UserDefinedConfigs.setWeatherData(data: filteredData)
         self.setUpView()
     }

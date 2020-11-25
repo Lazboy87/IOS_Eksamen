@@ -2,7 +2,7 @@
 //  WeatherReportTableViewCell.swift
 //  weather
 //
-//  Created by Lasse Hovden on 25/11/2020.
+//  Created by Lasse Hovden on 24/11/2020.
 //
 
 import UIKit
@@ -16,13 +16,13 @@ class WeatherReportTableViewCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
+        
     }
 
 }

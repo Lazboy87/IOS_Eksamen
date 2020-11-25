@@ -2,7 +2,7 @@
 //  WeatherReportViewController.swift
 //  weather
 //
-//  Created by Lasse Hovden on 25/11/2020.
+//  Created by Lasse Hovden on 24/11/2020.
 //
 
 import UIKit
@@ -25,7 +25,7 @@ class WeatherReportViewController: UIViewController {
     }
     
     private func setUpView() {
-        // Add only the first because we show only todays data
+        
         guard let data = UserDefinedConfigs.getWeatherData().first else { return }
         dataSet = [data]
         weatherReportTableView.reloadData()
@@ -41,7 +41,7 @@ class WeatherReportViewController: UIViewController {
 extension WeatherReportViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
-    {   // 4 because each time series has 4 time sections (now, next hour, next 6, next 12)
+    {   
         return 4
     }
 
