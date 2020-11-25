@@ -2,7 +2,7 @@
 //  ActivityIndicator.swift
 //  weather
 //
-//  Created by Lasse Hovden on 28/11/2020.
+//  Created by Lasse Hovden on 25/11/2020.
 //
 
 import Foundation
