@@ -16,6 +16,10 @@ class WeatherManager {
 
         AF.request(BASE_URL + "compact?lat=\(latitude)&lon=\(longitude)", method: .get, encoding: URLEncoding.default, headers: headers).validate().responseJSON { (responseData) in switch responseData.result {
             
+        
+        
+        
+        
         case .success( _):
             if(responseData.data != nil)
             {

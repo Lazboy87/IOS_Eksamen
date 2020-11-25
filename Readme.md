@@ -13,10 +13,13 @@
 
 # Weather app Ios eksamen for kandidat: 10065
 
+- Kandidat: 10065
+
+
 ## Forord:
 Når jeg skriver denne readme.md gjør jeg de i desperasjon etter, flere datahaveri med min helt nye macbook pro og jeg har hatt flere datahavari som har gjort at jeg har måttet "reboote" med oppsett og kode.  <br></br> 
 
-Nå siste gang etter sist reboot av alt med ny innstalering av xcode har jeg fått masse feil ved og pulle direkte fra github (mit repo er satt som private). Noe som til slutt førte til at jeg har måttet opprette filene manuelt på nytt igjen og kopiere koden inn manuelt i et nytt prosjekt.  <br></br> 
+Nå siste gang etter sist reboot av alt med ny innstalering av xcode har jeg fått masse feil ved og pulle direkte fra github (mitt repo er satt som private). Noe som til slutt førte til at jeg har måttet opprette filene manuelt på nytt igjen og kopiere koden inn manuelt i et nytt prosjekt.  <br></br> 
 
 Omsider har jeg fått alt til og fungere igjen, men under arbeide merker jeg at Macbooken gir samme tendenser til krasj(alt fryser og macbooken vil ikke skru seg på igjen) som tidligere og jeg tør rett og slett ikke og ta sjansen på og levere tilbake på reprasjon igjen. <br></br> 
 
@@ -24,12 +27,33 @@ Jeg leverer derfor den oppgaven jeg har til nå. Jeg tror jeg har fått alt stor
 
 
 
-##Kode refferanser:
-- Mye av kode er stort sett skrevet igjennom tutorials på youtube,stackoverflow eller hentet andre steder fra nettet. Jeg hadde i starten opprettet et dokument med tydligere kilder men det gikk desverre tapt i et av tilfellene nevnt i forord.<br></br> 
+## Xcode og swift versjoner:
+- Xcode versjon: 12
+- Swift versjon: 5
+
+
+## Bibloteker og services brukt:
+- Alamofire
+- Lottie
+- CoreLocation
+- UIKit
+- Foundation
+
+## Kode refferanser:
+- Mye av kode i mine filer er stort sett skrevet igjennom tutorials på youtube,stackoverflow eller hentet andre steder fra nettet, som er konfigurert og gjort om for og passe inn i prosjektet mitt.
+Jeg hadde i starten opprettet et dokument med tydligere kilder men det gikk desverre tapt i et av tilfellene nevnt i forord. Dermed klarer jeg ikke nøyaktig og gjengi hvor jeg har funnet diverse snutter<br></br> 
 
 -  NetworkActivityLogger. swift er en fil jeg hentet inn i prosjektet i forbindelse med bruk av bibloteket Alamofire.<br></br> 
 
 - Reachability.swift er også en fil hentet inn for og sjekke om device er koblet til internett.<br></br> 
+
+- rain.json er også en fil hentet inn brukes av Lottie bibloteket til animasjon.
+
+
+- 
+
+
+
 
 
 
